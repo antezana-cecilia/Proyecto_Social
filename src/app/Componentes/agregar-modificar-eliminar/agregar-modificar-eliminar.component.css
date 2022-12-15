@@ -1,0 +1,83 @@
+
+.title{
+  background:#005005;
+  height: 35px;
+  width: 90%;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 100px;
+}
+
+table {
+    width: 50%;
+    color:#005005;
+}
+
+.container {
+  margin: 5 20%;
+  text-align: center;
+}
+
+.search {
+  cursor:pointer;
+  color: yellowgreen
+}
+
+.agregar {
+  font-size:  10px;
+  line-height: 28px;
+}
+
+.delete {
+  cursor:pointer;
+  color: grey
+}
+
+.edit {
+  cursor:pointer;
+  color: green
+}
+  
+th, td {
+  text-align: center;
+}
+
+html{
+  background-image: #005005;
+  font-family: Helvetica,Arial, sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  background:#005005;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+}
+
+.botones {
+  background-color:#2e7c31; 
+  border: none; 
+  color: white; 
+  padding: 16px 32px; 
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;  
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}

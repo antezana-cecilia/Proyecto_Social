@@ -1,0 +1,88 @@
+.title{
+    background:#005005;
+    height: 35px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.formularios{
+    padding: 10px;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+  
+.example-full-width {
+    width: 100%;
+}
+  
+td {
+    padding-right: 8px;
+}
+
+.botones {
+    background-color: #2e7d32; 
+    border: none; 
+    color: white; 
+    padding: 16px 32px; 
+    text-decoration: none; 
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.example-card, .example-card_2 {
+    max-width: 465px;
+    background-color:#eeeeee;
+    float:left;
+    width: 50%;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    color: #005005;  
+}
+
+.example-card_1, .example-card_3 {
+    max-width: 465px;
+    background-color:#60ad5e;
+    float:left;
+    width: 50%;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    color: white; 
+}
+  
+.example-header-image {
+    background-image: url('https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/150213907_10164891239525524_8382605456719629980_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=attP9jgNlxwAX90kWH4&_nc_ht=scontent.fsrz4-1.fna&oh=00_AfAks2PGa68cRYK-jlArIl7QpEh7MghuiLDQ_Hah_Iw-JA&oe=63BA235C');
+    background-size: cover;
+}
+
+.form1{
+    text-align: center;
+    width: 1300px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    background-color:#eeeeee;
+    color: #005005;  
+}
+
+.mat-card-title, .mat-card-subtitle {
+    text-align:center ;
+    align-items: center;
+}

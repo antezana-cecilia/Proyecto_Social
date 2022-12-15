@@ -1,0 +1,107 @@
+
+<div class="title">
+  <H1>ADMINISTRADOR DE DONACIONES</H1>
+</div>
+
+<div class="title_1">
+<H1>{{operacion}} DE DONACION</H1>
+</div>
+
+<div class="cabecera"> 
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>DONAR</mat-card-title>
+      <mat-card-subtitle>Para mejorar la vida de los animales salvajes y domesticos</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://thumbs.dreamstime.com/b/dog-paw-hand-shaking-13952126.jpg" alt="Photo of pata">
+    <mat-card-content>
+      <p> <br>
+        Cuando donas, estás ayudando a asegurar un futuro para criaturas maravillosas.
+        Haga su donación  hoy.
+      </p>
+    </mat-card-content>
+  </mat-card>
+ 
+</div>
+<div class="form2">
+  <br> <br> <br> <br>
+
+    <form class="example-form">
+
+      <form [formGroup] = "form" (ngSubmit)="agregarEditarDonacion()">    <!-- para bindear fomrulario de validaciones , ng sub es un evento -->
+
+    <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Nombre</mat-label>
+          <input formControlName="nombre"  matInput> 
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Apellido</mat-label>
+          <input formControlName="apellido" matInput>
+        </mat-form-field></td>
+      </tr></table>
+    
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Direccion</mat-label>
+          <input formControlName="direccion"  matInput>
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input formControlName="email" matInput>
+        </mat-form-field></td>
+      </tr></table>
+
+              <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Telefono</mat-label>
+          <input type = "number" formControlName="telefono" matInput placeholder="Ex. +591 70735214">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <mat-label>Anonimo</mat-label>
+          <input formControlName="anonimo" matInput placeholder="Ex. Si/No">
+        </mat-form-field></td>
+      </tr></table>
+
+      <table class="example-full-width" cellspacing="0"><tr>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Estado</mat-label>
+            <input formControlName="estado" matInput placeholder="Ex. Activo/Completado">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Nombre de la donacion</mat-label>
+            <input formControlName="nombre_orden" matInput placeholder="Ex. Juguetes">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Cantidad</mat-label>
+            <input type = "number" formControlName="cantidad" matInput placeholder="Ex. 7">
+          </mat-form-field></td>
+        </tr></table>
+
+        <table class="example-full-width" cellspacing="0"><tr>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Fecha de recojo</mat-label>
+            <input formControlName="fecha_recojo" matInput placeholder="Ex. 14/05/2022">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Contacto</mat-label>
+            <input formControlName="contacto" matInput placeholder="Ex. Maria Mendez">
+          </mat-form-field></td>
+          <td><mat-form-field class="example-full-width">
+            <mat-label>Tipo</mat-label>
+            <input formControlName="tipo" matInput placeholder="Juguetes">
+          </mat-form-field></td>
+        </tr></table>
+        
+        <div class="botones">
+      
+          <button [disabled] = "form.invalid" type ="submit" class= "btnAceptar" mat-stroked-button color="personal">ACEPTAR</button>
+          <button mat-stroked-button color="personal" routerLink="/Front">INICIO</button>
+          
+      </div>
+  
+    </form>
+    
+   

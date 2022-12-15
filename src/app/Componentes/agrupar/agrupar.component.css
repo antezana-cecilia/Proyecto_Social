@@ -1,0 +1,25 @@
+.title{
+    background:#005005;
+    height: 35px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.container {
+    margin: 0 20%;
+    text-align: center;
+    height: 35px;
+}
+
+.card {
+    margin-top: 5px;
+    text-align: center;
+}
+

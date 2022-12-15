@@ -1,0 +1,28 @@
+.title{
+    background:#005005;
+    height: 35px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.example-card {
+    max-width: 1843px;
+    height: 830px;
+    width: 250%;
+    padding: 5px;
+    padding-left:100px;
+    padding-right:10px;
+    color: #005005; 
+}
+  
+.example-header-image {
+    background-image: url('https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/150213907_10164891239525524_8382605456719629980_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=attP9jgNlxwAX90kWH4&_nc_ht=scontent.fsrz4-1.fna&oh=00_AfAks2PGa68cRYK-jlArIl7QpEh7MghuiLDQ_Hah_Iw-JA&oe=63BA235C');
+    background-size: cover;
+}

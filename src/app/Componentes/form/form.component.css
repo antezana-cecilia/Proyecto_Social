@@ -1,0 +1,111 @@
+.title{
+    background:#005005;
+    height: 35px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 100px;
+}
+
+.title_1{
+  background:#2e7c31;
+  height: 35px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.formularios{
+    padding: 10px;
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 765px;
+    width: 100%;
+    padding-left: 50px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  td { 
+    padding-right: 8px;
+  }
+
+  .botones {
+    background-color: #2e7d32; 
+    border: none; 
+    color: white; 
+    padding: 16px 32px; 
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .mat-form-field {
+    width: 100%;
+    margin: 5px;
+  }
+
+  .example-card_3  {
+    max-width: 465px;
+    background-color:#87ac86;
+    float:left;
+    width: 50%;
+    margin:5px;
+    padding:5px;
+  }
+  
+
+  .form2 {
+    text-align: center;
+    align-items: center;
+    background-color:#87ac86;
+      padding: 10px;
+      min-width: 150px;
+      max-width: 940px;
+      height: 630px;
+     width: 50%;
+     float:left;
+  }
+  
+
+  .cabecera {
+    text-align: center;
+    align-items: center;
+    float:left;
+    width: 50%;
+
+  }
+
+  .example-card {
+    max-width: 960px;
+     height: 650px;
+     width: 200%;
+     padding: 5px;
+     padding-left:100px;
+     /* padding-right:10px; */
+     color: #005005; 
+  }
+  
+  .example-header-image {
+    background-image: url('https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/150213907_10164891239525524_8382605456719629980_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=attP9jgNlxwAX90kWH4&_nc_ht=scontent.fsrz4-1.fna&oh=00_AfAks2PGa68cRYK-jlArIl7QpEh7MghuiLDQ_Hah_Iw-JA&oe=63BA235C');
+    background-size: cover;
+  }
+

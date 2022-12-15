@@ -1,0 +1,31 @@
+
+<div class="title">
+    <H1>DETALLE DE REGISTRO</H1>
+  </div>
+
+<div *ngIf="donacion != null" class="container">   <!--eSTE COMPONENTE se renderice siempre y cuando donacion sea dif de 0-->
+  <mat-card class="card"> 
+        <mat-card-title>Numero de Donacion: {{donacion.id}}</mat-card-title>
+
+        <mat-card-content>
+          <br>
+            <p> <strong> Nombre: </strong> {{donacion.nombre}} </p> 
+            <p> <strong> Apellido: </strong> {{donacion.apellido}} </p>
+            <p> <strong> Direccion:</strong> {{donacion.direccion}}</p>
+            <p> <strong> Email: </strong> {{donacion.email}}</p>
+            <p> <strong> Telefono: </strong> {{donacion.telefono}} </p>
+            <p> <strong> Anonimo: </strong> {{donacion.anonimo}} </p>
+            <p> <strong> Estado: </strong> {{donacion.estado}} </p>
+            <p> <strong> Nombre Donacion: </strong> {{donacion.nombre_orden}} </p>
+            <p> <strong> Cantidad: </strong> {{donacion.cantidad}} </p>
+            <p> <strong> Fecha Recojo: </strong> {{donacion.fecha_recojo}} </p>
+            <p> <strong> Contacto: </strong>{{donacion.contacto}}</p>
+            <p> <strong> Tipo: </strong> {{donacion.tipo}} </p>
+        </mat-card-content>
+
+        <mat-card-actions>
+            <button mat-stroked-button color="personal" routerLink="/agregar" >ATRAS</button>
+        </mat-card-actions>
+
+  </mat-card>
+</div>

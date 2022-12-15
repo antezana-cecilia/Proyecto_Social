@@ -13,7 +13,7 @@ import { DonacionService } from 'src/app/Servicios/donacion.service';
   styleUrls: ['./agregar-modificar-eliminar.component.css']
 })
 
-export class AgregarModificarEliminarComponent implements OnInit, AfterViewInit  {
+export class AgregarModificarEliminarComponent implements OnInit, AfterViewInit  { //hola
 
   displayedColumns: string[] = ['nombre', 'apellido', 'email', 'direccion','telefono','anonimo','estado','nombre_orden', 'cantidad','fecha_recojo','contacto','tipo','Action'];
   

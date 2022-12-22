@@ -34,7 +34,13 @@ constructor(private fb: FormBuilder,
     estado : ['', Validators.required],
     nombre_orden : ['', Validators.required],
     cantidad : ['', Validators.required],
-    fecha_recojo : ['', Validators.required],
+    fecha_recojo : [
+      '',
+      Validators.compose([
+        Validators.required,
+        Validators.pattern(/^\d{1,2}\/\d{1,2}\/\d{4}$/),
+      ]),
+    ],
     contacto : ['', Validators.required],
     tipo : ['', Validators.required],
   })
